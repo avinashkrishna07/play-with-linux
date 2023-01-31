@@ -1,0 +1,21 @@
+# This step is done after deleting the linux partion in disk management in Windows.
+# This step will prevent booting in grub rescue mode after deleting linux partition.
+
+Step 1: Open command prompt and run as an administrator.
+Now run the commands in sequence:- 
+=> diskpart
+=> list disk
+=> select disk 0
+=> list partition
+=> select partion 1 (NOTE: here partion 1 contains system, numbers may vary.)
+=> assign letter=x  (you can assign any alphabet letter)
+=> exit
+=> x:
+=> dir
+=> cd efi
+=> dir
+=> rd ubuntu /s    NOTE: there can be name of any distro in place of ubuntu.
+=> y
+=> dir
+=> exit
+
