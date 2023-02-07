@@ -39,14 +39,7 @@ fish_add_path $HOME/.local/share/go/bin
 fish_add_path $HOME/.pulumi/bin
 
 # Common appications
-alias ke="killall -w emacs"
-alias e="emacsclient -c -a 'emacs' -q . & disown"
-alias ess="emacsclient -a '' -e '(server-start)'"
-alias doominstall="doom install"
-alias doomclone="git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.config/emacs"
-alias esr="killall -w emacs &&  doom sync && emacsclient -a '' -e '(server-start)'"
 alias btop="btop --utf-force"
-alias `="cd /run/media/a_krisssh/hardDisk/"
 alias q="exit"
 
 # Rust Rewritest
@@ -54,15 +47,10 @@ alias cat="bat";
 alias internet="sudo bandwhich"
 alias ls="exa -l --color=always --group-directories-first" # my preferred listing
 #alias ls="exa -al --color=always --group-directories-first" # my preferred listing
-alias fd="fd -E /run/timeshift -E /usr/share/man -E /proc -E /tmp -E /run/user"
 alias grep="rg"
 alias man="tldr"
 
-# Notest push to gitlab
-alias notes_push="~/Documents/Scripts/org-export-md.sh"
-alias site_push="emacs -q --script ~/Documents/Projects/Blog/build-script.el"
-alias page_up="~/Documents/Projects/Web-Start-Page/main.py ~/Documents/Projects/Web-Start-Page/anime.html"
-alias pdf_join="~/Documents/Scripts/pdf_join.sh"
+# Commands related to paru package manager
 alias unlock="sudo rm /var/lib/pacman/db.lck"
 alias cleanup="paru -Rns $(paru -Qqtd)"
 alias pacu="paru -Syu"
@@ -70,7 +58,6 @@ alias pacs="paru -Ss"
 alias paci="paru -S"
 alias pacr="paru -Rns"
 alias pacl="paru -Qs"
-alias pacback="paru -Qqe > ~/Documents/Scripts/copy-configuration/pacman-installed.txt"
 alias pacorphan="paru -Qdt"
 alias pacgroup="paru -Syg"
 alias pacown="paru -Qo"

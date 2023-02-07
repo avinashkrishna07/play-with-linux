@@ -30,3 +30,7 @@ Solution: > run command sudo blkid and then copy the UUID of your drive from the
           > again press tab and write defaults again press tab write 0 then tab then 0.
           > save and exit and run sudo mount -a , logout or reboot your system.
 
+Query7: How to disable kde wallet popping out after password change in kde ?
+Solution: paste 'Enabled=false' in ~/.config/kwalletrc file. To disable frequent asking of wifi password by kde
+          daemon, go to Settings> Network> Connection> Wifi Security then set store password for all users
+          (not encrypted).
