@@ -4,18 +4,9 @@
 2) Do setup your system configuration with konsave.
 3) Overwrite .config files in .config folder(press ctrl+h in home directory). 
    NOTE: Don't delete .config folder overwrite it.
-4) Do setup your browser by sync code and with the help of brave configuration files.
+4) Do setup your browser by sync code and with the help of brave configuration files or just paste the browser config.
 5) Delete uneccessary packages on system and install neccessary packages as per your need in that time.
 6) Checkheck for any errors or issues and fix them.
 
-### For setup of neovim to astro neovim follow the instructions:-
-
-mv ~/.local/share/nvim ~/.local/share/nvim.bak
-mv ~/.config/nvim ~/.config/nvim.bak
-nvim +PackerSync
-git clone https://github.com/AstroNvim/AstroNvim ~/.config/nvim
-nvim +PackerSync
-
 ### Setup your code editors:-
 vscode (login it will automatically set your configuration if synced earlier) 
-sublime-text (for competitive programming, input and output)

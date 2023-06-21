@@ -47,30 +47,3 @@
 => wc (for counting no. of words,lines,character and etc in a file)
    Use different flags ie. wc -l, wc -c, etc for more information check wc --help
    NOTE: Very useful when used with piping. eg. cat gitCommands.txt | grep git | wc .
-
-=> Linux wildcards are the character which makes easier to operate on a same class files.
-   They are mainly '*' '?' '^' and etc. They perform extraordinary tasks when used along with piping.
-(Some basic commands of linux wildcards used with piping) 
-cat names.txt | grep ^a     (filter out all words starting with a)
-cat names2.txt | grep shambhavee
-cat names?.txt | grep ^a
-ls *.txt
-cat names?.txt
-cat ?learn_bash.sh
-cat *sh
-cat *sh | wc -c
-cat ?learn_bash.sh | wc -l
-cat ?learn_bash.sh | du -sh
-cat *.sh | du -sh
-ls -lR *.txt
-ls -lR *.sh
-ls *.java
-ls -t
-ls -lR math*
-touch demo{1..5}
-ls ?learn_bash.sh
-ls -l ??.cpp
-ls -l ???.cpp
-ls -l q[123].cpp
-ls -l *[1-10]*
-

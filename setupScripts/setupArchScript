@@ -1,11 +1,12 @@
 #!/usr/bin/env sh
 
 # This script will work only on arch based distros.
-# You can manually add or remove package name according to your choice in script for installation.
+# You can manually add or remove packages just by removing or adding packages name,
+# according to your choice in the script before installation.
 # Just copy the script and make your own script, also give the execute permission to the script.
-# Run command chmod u+x script_name.sh for assinging execute permission to the script.
-# Then execute the script by running command 'bash script_name.sh' or './script_name.sh'.
-#
+# Run command chmod u+x script_name for assinging execute permission to the script.
+# Then execute the script by running command 'bash script_name' or './script_name'.
+
 echo "=============================================================================================================";
 echo "                                Setup for the system will begin shortly!";
 echo "=============================================================================================================";
@@ -19,8 +20,8 @@ cd paru-bin
 makepkg -si
 cd ..
 rm -rf paru-bin
-paru -Syu kitty fish starship neovim brave-bin google-chrome noto-fonts-emoji vlc ripgrep fd exa bandwhich konsave gparted visual-studio-code-bin telegram-desktop-bin dust onlyoffice-bin ;
+paru -Syu kitty fish starship linux-wifi-hotspot yt-dlp neovim brave-bin google-chrome noto-fonts-emoji nerd-fonts-source-code-pro vlc ripgrep fd exa bandwhich konsave gparted visual-studio-code-bin jdk-openjdk telegram-desktop-bin dust onlyoffice-bin deepin-camera ;
 chsh -s /bin/fish
 echo "=============================================================================================================";
-echo "                               Setup Completed! Now enjoy with your computer."; 
+echo "                               Setup completed! Now enjoy with your Computer."; 
 echo "=============================================================================================================";

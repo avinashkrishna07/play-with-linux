@@ -1,4 +1,0 @@
-###Just paste the below command in the terminal it will configure your terminal look. 
-
- wget https://github.com/Animeshz/linux-desktop/raw/main/.config/starship.toml -O $HOME/.config/starship.toml
-

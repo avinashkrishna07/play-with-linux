@@ -1,4 +1,4 @@
-Step 1: Install ventoy package. In arch run command "paru -Syu ventoy-bin" .
+Step 1: Install ventoy package. In arch based distros run command "paru -Syu ventoy-bin" .
 Step 2: Plug-in desired USB flash drive and locate device name of USB flash drive using on of the following commands:
         => lsblk -f
         => sudo mount /dev/sdx  where x maybe any drive letters.

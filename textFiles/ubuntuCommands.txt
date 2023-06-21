@@ -50,7 +50,7 @@
    #document viewer for KDE plasma(Dekstop environment like GNOME is a dekstop environment).
 >  sudo apt install gwenview               #image viewer for KDE plasma.
 >  sudo gedit /etc/default/grub  (you can also use any text editor in  place of gedit like vim, nano or etc)           
-   #for making changes in grub by gedit text editor.
+   #for making changes in grub config by gedit text editor.
 >  sudo apt install kde-baseapps kde-plasma-desktop                 
    #for switching to KDE Plasma from Gnome Desktop environment.
 >  htop             #for fetching system CPU usage.
