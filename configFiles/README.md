@@ -22,4 +22,4 @@
 
 > Now, enjoy with your kitty terminal! 😀😀😀
 > 
-![Screenshot_20230621_010601](https://github.com/avinashkrishna07/system-configuration/assets/97250827/43923f5e-e815-4806-aa5f-1b6b8a116cff)                                                                                            
+![terminal-look](https://github.com/avinashkrishna07/play-with-linux/assets/97250827/f2169158-dcf7-4956-bed1-4d0fad1fccc9)

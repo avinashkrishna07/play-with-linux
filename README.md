@@ -38,5 +38,4 @@
 # 
 <h3>Infatuated with Linux 😍😍😍</h3>
 
-![various-os-1-4k](https://github.com/avinashkrishna07/system-configuration/assets/97250827/aed76a26-94ed-4956-a5ba-566b27aed581)
-![various-os-2-4k](https://github.com/avinashkrishna07/system-configuration/assets/97250827/0e377735-b924-4976-8d99-3644185dcbb8)
+![various-os-1-resize](https://github.com/avinashkrishna07/play-with-linux/assets/97250827/cf2b2a0e-6f3d-4157-8fc3-2c3a63907644)
