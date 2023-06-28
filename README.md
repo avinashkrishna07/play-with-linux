@@ -16,7 +16,7 @@
 > Install **ventoy** on a pendrive and just paste the downloaded **disk image file** of operating system in **pendrive**.<br>
 > To access installation guides and instructional resources on utilizing this tool, please refer to this [<ins>link</ins>](https://www.ventoy.net/en/doc_start.html).<br>
 > If you are already using **arch based distro** then there is a package named as `ventoy-bin` in **AUR**.<br>
->> For installation guides on arch based distro go through this [<ins>link</ins>](https://github.com/avinashkrishna07/play-with-linux/blob/main/textFiles).<br>
+>> For installation guides on arch based distro go through this [<ins>link</ins>](https://github.com/avinashkrishna07/play-with-linux/blob/main/usefulGuides).<br>
 >> 
 >> ![ventoy](https://github.com/avinashkrishna07/play-with-linux/assets/97250827/af4b8b1d-c1af-4ef0-8199-13c9d848bdd0)
 
