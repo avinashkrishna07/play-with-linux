@@ -1,4 +1,0 @@
-### How to fix global scaling in arch based distro? I'm using 14th inch laptop and fonts size are too small to read.
-
-Step 1: Go to settings -> Search display configuration -> Set global scaling to 175%(Recommended).
-Step 2: Now go to settings -> Login Screen(SDDM) -> Apply plasma settings -> Apply.

@@ -1,7 +1,0 @@
-# Basic arch commands:-
-
-> sudo pacman -Syu (For updating installed packages in system.)
-> paru -Syu (For updating installed packages in system using paru package manager.)
-> sudo pacman -R package_name (For removing package from the system.)
-> sudo pacman -Rns package_name (For removing package and it's dependency from the system.)
-> pacman -Ss package_name (For searching a package.)
