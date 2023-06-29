@@ -117,3 +117,55 @@ Again open the command prompt as an administrator:
 ```
 ---                                                                                                                
 
+### Some Common Issues and Solutions 
+
+```yaml
+Query1: I'm unable to increase the volume using volume keys in KDE plasma.
+        It's showing no input or output devices found.
+
+Solution: Try updating the kernal to the latest and
+          run command 'sudo pacman -S pipewire pipewire-alsa pipewire-jack pipewire-pulse'.
+          This solution also works in the case when bluetooth devices are not getting paired.
+
+Query2: How to permanently alias a command in fish shell?
+        e.g. alias pacu=' sudo pacman -Syu' this works but after reopening the terminal this command doesn't works.
+
+Solution: You have to put it into the 'config.fish' file.
+
+Query3: I'm unable to update system after fresh installation of arch based distro.
+
+Solution: Run command 'sudo pacman -Sy archlinux-keyring' and then update the system easily.
+
+Query4: I'm unable to boot into BIOS using function keys. 
+
+Solution: Run command 'sudo systemctl reboot --firmware' on terminal.
+
+Query5: How to remove Windows entries from GRUB after removing Windows. PS: I'm currently using only linux.
+
+Solution: On terminal run command 'sudo rm -r/boot/efi/EFI/Microsoft'. 
+          Then update grub using command 'sudo update-grub'.
+          If you are using arch based distro then use 'sudo grub-mkconfig -o /boot/grub/grub.cfg'.
+
+Query6: How to auto mount a external hard disk drive or any drives without root password ?
+
+Solution: => run command sudo blkid and then copy the UUID of your drive from there.
+          => then run command sudo nvim /etc/fstab then paste the UUID in format 'UUID=875925fjald'.
+          => then press tab and write the path of mount point.
+          => again press tab and write the filesystem name eg. 'ext4' or 'ntfs'.
+          => again press tab and write 'defaults' again press tab write '0' then tab then '0'.
+          => save and exit and run 'sudo mount -a' , now reboot your system.
+
+Query7: How to disable kde wallet popping out after password change in kde ?
+
+Solution: paste 'Enabled=false' in '~/.config/kwalletrc' file. To disable frequent asking of wifi password by kde
+          daemon, go to Settings -> Network -> Connection -> Wifi Security then set store password for all users
+          (not encrypted).
+```
+
+### Image Reference for Query6 and Query7
+
+![autoMountExternalDrives](https://github.com/avinashkrishna07/play-with-linux/assets/97250827/9eb5cd79-1920-4508-af9a-38b19fb2b344)
+
+![disable_kwallet](https://github.com/avinashkrishna07/play-with-linux/assets/97250827/bfb9f664-1351-4108-a7ed-1761344bf76c)
+
+---
