@@ -1,11 +1,6 @@
 #!/usr/bin/env sh
 
 # This script will work only on arch based distros.
-# You can manually add or remove packages just by removing or adding packages name,
-# according to your choice in the script before installation.
-# Just copy the script and make your own script, also give the execute permission to the script.
-# Run command chmod u+x script_name for assinging execute permission to the script.
-# Then execute the script by running command 'bash script_name' or './script_name'.
 
 echo "=============================================================================================================";
 echo "                                Setup for the system will begin shortly!";

@@ -1,10 +1,6 @@
 #!/usr/bin/env bash
 
 # This script will work only on debian based distros.
-# You can manually add or remove package name according to your choice in script before executing the script.
-# Just copy the script and make your own script, also give the execute permission to the script.
-# Run command chmod u+x script_name for assinging execute permission to the script.
-# Then execute the script by running command 'bash script_name' or './script_name'.
 
 echo "=============================================================================================================";
 echo "                                Setup for the system will begin shortly!";
