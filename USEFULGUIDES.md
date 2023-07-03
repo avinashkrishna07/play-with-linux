@@ -169,3 +169,71 @@ Solution: paste 'Enabled=false' in '~/.config/kwalletrc' file. To disable freque
 ![disable_kwallet](https://github.com/avinashkrishna07/play-with-linux/assets/97250827/bfb9f664-1351-4108-a7ed-1761344bf76c)
 
 ---
+
+### Some Basics Linux Commands
+
+```yaml
+sudo su : For changing normal user mode to root user i.e superuser.
+whoami : Displays username.
+
+ls : This command will list files of present working directory.
+     Use flag -a for listing hidden files, -l for seeing permissions and -R for listing items inside the directory
+     of directory. ie. ls -alR.
+
+cd /directory: For changing directory.
+cd .. : For moving to previous directory.
+cd ~ : For changing directory to home directory.
+cd / : For changing into root.
+
+clear, history, exit	: For clearing, listing previously used commands and closing the teminal.
+
+touch "filename.extension" : For creating a file in working directory.
+
+mkdir "directory\name" : For creating an empty directory in working directory.
+
+rmdir "directory\name" : For deleting an empty directory.
+rm -r "directory\name" or "filename.extension" : For deleting non-empty directory or files.
+# NOTE: Use rm -rf "directory\name" for deleting non empty directory. -f flag is used for force delete.
+
+chmod "xyz" "filename" : For changing permissions of a file or directory. 
+                        ie. chmod 777 filename.extension or chmod u+x directory\name.
+
+htop or btop : For system monitoring.
+neofetch : For fetching system information.
+# NOTE: Make sure that neofetch is installed on your system.
+vimtutor : For learning how to use vim editor.
+
+du -hs /fullDirectoryPath/ : For fetching size of a directory.
+                             Use du --help for more information.
+# NOTE: Very useful when piped with pwd command. eg. pwd | du -hs .
+
+fdisk -l : For disk partition list.
+           Use fdisk --help for more information.
+lsblk -f : For disk partion and filesystem related information.
+           Use lsblk --help for more information.
+
+cat "filename" or less "filename" : For displaying file content on terminal.
+cat "filename1" > "filename2" : For overwriting content of "filename1" to "filename2".
+# NOTE: this action will delete the earlier content of filename2.
+cat "filename1">>"filename2" : For overriding content of "filename1" to "filename2".
+tac "filename1" > "filename2" and tac "filename1" >> "filename2" : For flipping one file into another.
+# NOTE: Very useful if you want to save your commands from history.
+cat $SHELL : Gives path of the SHELL.
+
+command >> filename.txt : For storing output of a command into 'filename.txt' file.
+mv "old_filename" "new_filename" : For renaming a file or directory.
+                                  Use flags -i -v for more information.
+cp "old_filename" "new_filename" : For copying contents of "old_filename" to new new file named "new_filename".
+
+alias "shortCommand" = "longCommand" : For making custom commands.
+command1 | command2 : Will take output of command1 as input of command2.
+                     ie. ls | wc -l (This type of operation is known as piping.)
+wc : For counting no. of words, lines, character and etc in a file.
+    Use different flags ie. wc -l, wc -c, etc for more information check wc --help
+# NOTE: Very useful when used with piping. eg. cat gitCommands.txt | grep git | wc .                               
+
+whereis "package\name" : This command locates the source, binary, and manuals sections for specified package.
+package --version : Displays version of the package.
+
+```
+---
