@@ -170,7 +170,7 @@ Solution: paste 'Enabled=false' in '~/.config/kwalletrc' file. To disable freque
 
 ---
 
-### Some Basics Linux Commands
+### Some Basic Linux Commands
 
 ```yaml
 sudo su : For changing normal user mode to root user i.e superuser.
