@@ -35,7 +35,15 @@
 
 > Go through this [<ins>link</ins>](https://github.com/avinashkrishna07/play-with-linux/tree/main/configFiles) and follow the instructions.
 
+
 # 
 <h3>Infatuated with Linux 😍😍😍</h3>
 
 ![various-os-1-resize](https://github.com/avinashkrishna07/play-with-linux/assets/97250827/cf2b2a0e-6f3d-4157-8fc3-2c3a63907644)
+
+
+#
+
+<h3>LICENSE</h3>
+
+> Licensed under the MIT License. See the [LICENSE](https://github.com/avinashkrishna07/play-with-linux/blob/main/LICENSE) file for more details.
