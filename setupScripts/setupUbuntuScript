@@ -17,10 +17,13 @@ sudo apt install build-essential
 sudo apt install default-jdk
 sudo apt install htop
 sudo apt install wget
+sudo apt-get install fish
 wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo apt install snapd
 sudo snap install --classic code
-sudo snap install intellij-idea-community --classic
+sudo snap install dust
+sudo chsh -s /usr/local/bin/fish
 sudo apt update && sudo apt upgrade -y
 sleep 2s;
 echo "=============================================================================================================";
