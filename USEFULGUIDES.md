@@ -234,6 +234,13 @@ wc : For counting no. of words, lines, character and etc in a file.
 
 whereis "package\name" : This command locates the source, binary, and manuals sections for specified package.
 package --version : Displays version of the package.
+```
+
+### Image Reference for Chroot.
+
+![chrootCommands](https://github.com/avinashkrishna07/play-with-linux/assets/97250827/5115e30f-e42c-4e92-bf8e-2b528b11e38f)
+
+---
 
 ```
 ---
