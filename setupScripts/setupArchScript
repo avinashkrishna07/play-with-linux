@@ -15,7 +15,7 @@ cd paru-bin
 makepkg -si
 cd ..
 rm -rf paru-bin
-paru -Syu kitty fish starship linux-wifi-hotspot yt-dlp neovim brave-bin google-chrome noto-fonts-emoji nerd-fonts-source-code-pro vlc ripgrep fd exa bandwhich konsave gparted visual-studio-code-bin jdk-openjdk telegram-desktop-bin dust onlyoffice-bin deepin-camera ;
+paru -Syu kitty fish starship linux-wifi-hotspot yt-dlp neovim brave-bin google-chrome noto-fonts-emoji nerd-fonts-source-code-pro vlc ripgrep fd exa bandwhich konsave gparted visual-studio-code-bin jdk-openjdk telegram-desktop-bin dust onlyoffice-bin flameshot;
 chsh -s /bin/fish
 echo "=============================================================================================================";
 echo "                               Setup completed! Now enjoy with your Computer."; 
