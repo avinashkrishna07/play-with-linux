@@ -82,9 +82,13 @@ Setup your browser:
 ### Delete Linux from Windows
 
 ```yaml
-# This step is done after deleting the linux partion on disk management in Windows.
 # This step will prevent booting in grub rescue or Windows recovery mode after deleting linux partition.
+# This step is done after deleting the linux partion on disk management in Windows.
+To Delete linux from windows press Windows + R then type diskmgmt.msc and then simply delete Linux partition.
+Format of linux partion would likely to be ext4(in most of the cases), btrfs, zfs or etc.
+Caution: Don't delete any recovery partion with format FAT32 or NTFS or Recovery Partition otherwise your system may fail to boot.
 
+# After following the above steps do the below steps without rebooting your device.
 Open command prompt as an administrator:
     Now run the commands in sequence: 
         => diskpart
@@ -92,6 +96,8 @@ Open command prompt as an administrator:
         => select disk 0
         => list partition
         => select partion 1 (NOTE:- here partion 1 contains system, numbers may vary.)
+        => list volume
+        => select volume 1 (NOTE:- here volume 1 contains SYSTEM, numbers may vary in your case.)
         => assign letter=x  (you can assign any alphabet letter.)
         => exit
         => x:
@@ -114,6 +120,7 @@ Again open the command prompt as an administrator:
         => exit
 
 # If you are facing any difficulties just search the web and check YouTube videos related to this.
+Note: After doing all this steps go to the bios and make the boot order of Windows boot loader to the top.
 ```
 ---                                                                                                                
 
